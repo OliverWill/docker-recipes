@@ -1,5 +1,6 @@
 FROM python:3.6.5
 
+# NOTE: debian version might change, used to work with .../debian/8/... in the past but not any more
 RUN apt-get -y update \
 	&& apt-get -y install apt-transport-https \
 	&& apt-get -y install sudo \
